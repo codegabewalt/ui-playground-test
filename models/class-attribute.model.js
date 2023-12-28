@@ -7,7 +7,7 @@ export class ClassAttributePage {
     this.primaryBtn = page.locator(".btn-primary");
   }
 
-  navigateToPage = async () => {
+  visit = async () => {
     await this.url;
   };
 
